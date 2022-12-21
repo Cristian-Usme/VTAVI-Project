@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+.header-article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo-profile {
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+    margin: 0.6rem 0rem 0.5rem 1rem;
+}
+
+.profile-and-name {
+    display: flex;
+}
