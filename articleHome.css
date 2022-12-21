@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
+    font-family: 'Prompt', sans-serif;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
 .header-article {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .photo-profile {
@@ -22,4 +24,19 @@ body {
 
 .profile-and-name {
     display: flex;
+}
+
+.name-and-date {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.date {
+    font-size: 10px;
+    color: #999999;
 }
