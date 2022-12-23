@@ -29,14 +29,41 @@ body {
 .name-and-date {
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
+    margin-left: 0.5rem;
 }
 
 .name {
     font-size: 12px;
     font-weight: 700;
+
 }
 
 .date {
     font-size: 10px;
     color: #999999;
+}
+
+.options {
+    margin-right: 1rem;
+}
+
+.publication-image {
+    width: 100vw;
+    height: 35vh;
+}
+
+.pages {
+    text-align: center;
+}
+
+.interactions {
+    width: 30vw;
+    display: flex;
+}
+
+.interaction-button {
+    border: none;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }

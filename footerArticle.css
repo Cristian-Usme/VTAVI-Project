@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Prompt', sans-serif;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+.footer-comments {
+    font-size: 12px;
+    margin: 0 0.5rem;
+    color: rgb(37, 37, 37);
+}
